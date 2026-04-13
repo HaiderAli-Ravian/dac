@@ -49,6 +49,20 @@
 }
 
 :root {
+
+  
+  --brand-primary: #2563EB;       /* blue-600 — buttons, links, accents */
+  --brand-primary-hover: #1D4ED8; /* blue-700 — hover states */
+  --brand-light: #EFF6FF;         /* blue-50 — subtle backgrounds */
+  --brand-dark: #0F172A;          /* slate-900 — dark sections, footer */
+  --brand-card: #FFFFFF;          /* white — card backgrounds */
+  --brand-text: #0F172A;          /* slate-900 — primary text */
+  --brand-muted: #64748B;         /* slate-500 — secondary text */
+  --brand-border: #E2E8F0;        /* slate-200 — borders, dividers */
+  --brand-success: #16A34A;       /* green-600 — success states */
+  --brand-error: #DC2626;         /* red-600 — error states */
+
+
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
