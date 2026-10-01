@@ -1,6 +1,8 @@
 # Dealers Auto Center — Frontend Assessment
 
-A modern vehicle inventory dashboard and user registration application built for the Dealers Auto Center frontend assessment. Built with Next.js 16, TypeScript, Tailwind CSS, and shadcn/ui.
+A Next.js frontend assessment demonstrating vehicle search, filtering, sorting, pagination, and form validation with TypeScript and TanStack Query.
+
+Vehicle records are mock data. Registration validates inputs and simulates feedback; it does not create an account or persist credentials.
 
 ## 🚀 Live Demo
 
@@ -138,7 +140,7 @@ src/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+
+- Node.js 20.9+ (Node.js 22 recommended)
 - npm or yarn
 
 ### Installation
