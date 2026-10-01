@@ -213,3 +213,12 @@ Colors match Dealers Auto Center's brand palette:
 ---
 
 Built by **Haider Ali** — Full Stack Developer
+
+
+## Screenshots
+
+### Demonstration registration form
+
+Registration UI with sample placeholders and an explicit demo notice. The form validates inputs without creating accounts or storing credentials.
+
+<img width="3024" height="1722" alt="dac-registration" src="https://github.com/user-attachments/assets/9abfd86f-a28c-45df-91f3-879788c73098" />
