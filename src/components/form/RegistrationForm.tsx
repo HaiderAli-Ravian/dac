@@ -37,16 +37,18 @@ export function RegistrationForm() {
     mode: 'onBlur',
   });
 
-  const onSubmit = async (data: FormValues) => {
-    console.log("Data: ", data)
+  const onSubmit = async () => {
     await new Promise((resolve) => setTimeout(resolve, 1500));
-    toast.success('Registration successful! Welcome aboard.');
+    toast.success('Demo validation complete. No account was created.');
     reset();
     router.push('/');
   };
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
+      <p className="text-sm text-slate-500">
+        Demo only: use sample details. This form does not create an account or save credentials.
+      </p>
       <Field data-invalid={!!errors.fullName}>
         <FieldTitle>Full Name</FieldTitle>
         <Input
@@ -106,10 +108,10 @@ export function RegistrationForm() {
         {isSubmitting ? (
           <>
             <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-            Creating Account...
+            Validating Demo...
           </>
         ) : (
-          'Create Account'
+          'Validate Demo Form'
         )}
       </Button>
     </form>
