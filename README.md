@@ -222,3 +222,10 @@ Built by **Haider Ali** — Full Stack Developer
 Registration UI with sample placeholders and an explicit demo notice. The form validates inputs without creating accounts or storing credentials.
 
 <img width="3024" height="1722" alt="dac-registration" src="https://github.com/user-attachments/assets/9abfd86f-a28c-45df-91f3-879788c73098" />
+
+
+### Vehicle inventory
+
+Mock vehicle records with search, type filtering, sorting, and pagination. Vehicle imagery is supplied by imagin.studio; provider watermarks remain visible in this demo.
+
+<img width="3024" height="3412" alt="dac-inventory" src="https://github.com/user-attachments/assets/59290a8f-b9c7-4e71-b42c-c0fc707f9f6c" />
